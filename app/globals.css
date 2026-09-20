@@ -1,1 +1,13 @@
-
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f8;color:#171717;font-family:Arial,sans-serif}
+main{max-width:1000px;margin:auto;padding:22px}
+header{display:flex;gap:14px;align-items:center;margin-bottom:25px}
+.logo{width:54px;height:54px;border-radius:15px;background:#f4b400;display:grid;place-items:center;font-weight:900;font-size:22px}
+h1{margin:0;font-size:24px}
+header p{margin:5px 0;color:#666}
+.hero{background:#171717;color:white;border-radius:24px;padding:28px}
+.hero h2{font-size:36px;margin:12px 0}
+.hero p{color:#ccc;line-height:1.5}
+.pill{background:#f4b400;color:#111;padding:6px 10px;border-radius:99px;font-size:12px;font-weight:800}
+.roles{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+button{border:0;border-radius:10px;padding:11px 16px;font-weight:700;cursor:pointer}
